@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'sliced_bread'
-  s.version     = '0.0.1'
-  s.date        = '2014-02-17'
+  s.version     = '0.0.2'
+  s.date        = '2014-02-18'
   s.summary     = "A simple array slicer gem"
   s.description = "A simple array slicer gem"
   s.authors     = ["Amit Suryavanshi, Yashasree Barve, Souranil Sen, Twinkal Savani, Priya Joshi"]

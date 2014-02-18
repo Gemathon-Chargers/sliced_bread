@@ -39,4 +39,7 @@ Array.class_eval do
     end
   end
 
+  def delete_if_contains(substring)
+    self.delete_if{|el| el.match(substring)}
+  end
 end
