@@ -24,4 +24,20 @@ describe Array do
   it "should return self if the last number exceeds the array size" do
     @array.bottom(5).should == @array
   end
+
+  it "should return subset of the array with the middle elements if the count is in the range of array" do
+    [1, 2, 3, 4, 5, 6, 7, 8].middle(3).should == [3, 4, 5]
+  end
+
+  it "should return subset of the array with the middle elements if the count is in the range of array" do
+    [1, 2, 3, 4, 5, 6, 7, 8, 9].middle(3).should == [4, 5, 6]
+  end
+
+  it "should return subset of the array with the middle elements if the count is in the range of array" do
+    [1, 2, 3, 4, 5, 6, 7, 8, 9].middle(4).should == [3, 4, 5, 6]
+  end
+
+  it "should return subset of the array with the middle elements if the count is in the range of array" do
+    [1, 2, 3, 4, 5, 6, 7, 8].middle(1).should == [4]
+  end
 end
